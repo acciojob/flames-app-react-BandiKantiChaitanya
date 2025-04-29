@@ -20,8 +20,8 @@ function App(){
         }
 
         function hanldleRelationship(str1,str2){
-            str1 = str1.toLowerCase().replace(/\s/g, '').split('');
-            str2 = str2.toLowerCase().replace(/\s/g, '').split('');
+            str1 = str1.replace(/\s/g, '').split('');
+            str2 = str2.replace(/\s/g, '').split('');
 
             for (let i = 0; i < str1.length; i++) {
                 let index = str2.indexOf(str1[i]);
